@@ -1,0 +1,15 @@
+<div class="container">
+<div class=" post col-md-6">
+    <h1>Qui sont pour vous, les footballeurs les plus célèbres ?</h1>
+    <div class="input-group">
+    <input #Nouvnom
+      placeholder="Entrer le nom du footballeur" 
+      (keyup.enter)="Ajouter(Nouvnom.value); Nouvnom.value='' "
+      (blur)="Ajouter(Nouvnom.value); Nouvnom.value='' " class="form-control input-md">
+ 
+    <button class="input-group-addon" (click)="Ajouter(Nouvnom.value)">Ajouter</button>
+
+     </div>
+                <h4 class="nom" *ngFor="let nom of noms">{{nom}}</h4>
+  </div>
+</div>
