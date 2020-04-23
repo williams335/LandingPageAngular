@@ -1,4 +1,4 @@
-# Todoapp2
+# Langing Page Angular 9 + TodoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
